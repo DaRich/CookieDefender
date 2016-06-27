@@ -10,7 +10,7 @@ import threading
 url = 'https://api.projectoxford.ai/vision/v1.0/describe'
 headers = {
    'Content-Type': 'application/octet-stream',
-   'Ocp-Apim-Subscription-Key': 'f4a3ee6030b04380ae3779ad28ea67d3'
+   'Ocp-Apim-Subscription-Key': '********************************'
 }
 dataStruct = struct.Struct( 'B' );
 ser = serial.Serial( '/dev/ttyS0' )
